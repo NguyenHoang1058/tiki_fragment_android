@@ -84,9 +84,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/btnadd"
-        tools:layout_editor_absoluteX="177dp"
         app:layout_constraintBottom_toBottomOf="@+id/imgMinus"
-        app:layout_constraintTop_toTopOf="@+id/imgMinus" />
+        app:layout_constraintTop_toTopOf="@+id/imgMinus"
+        android:layout_marginRight="8dp"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintRight_toRightOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView6"
